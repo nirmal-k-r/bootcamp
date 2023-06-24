@@ -1,0 +1,5 @@
+cheese,50.00
+milk,220.00
+rice,340.00
+apple,15.00
+banana,5.00
