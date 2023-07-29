@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript syntax</title>
+
+</head>
+
+<body>
+    <h1 >Js syntax</h1>
+    
+</body>
+
+<footer>
+</footer>
+
+<script>
+    // num=8;
+    // let num=9;
+    var num=9;
+
+    if (num==9){
+        console.log('num is 9');
+    }
+
+    while (num>0){
+       num--;
+       console.log(num);
+    }
+
+    for (let i=0;i<5;i++){
+        console.log(i);
+    }
+
+    a="John"
+    b="aul"
+
+    if (a=="John" || b=="Paul"){
+        console.log("John and Paul");
+    }
+
+    names=[];
+    names.push('Tom');
+    names.push('Pierre');
+    names.push('Jack');
+    names.pop();
+    console.log(names);
+    console.log(names.length);
+    console.log(names[0]);
+
+    student={
+        name: "John",
+        age: "50"
+    }
+
+    //cast
+
+    student.age=parseInt(student.age);
+    
+
+    console.log(student);
+
+    // var test=prompt('Enter data: ');
+    // console.log(test);
+
+    const PI = 3.141592653589793;
+
+    console.log(PI);
+    // PI=2;
+
+    console.log(Math.floor(Math.random() * 100));
+
+    ax=2;
+    switch(ax) {
+        case 1:
+            console.log('its 1');
+            break;
+        case 2:
+            console.log('its 2');
+            break;
+        default:
+            console.log('its none');
+            // code block
+        }
+
+
+</script>
+
+
+</html>
