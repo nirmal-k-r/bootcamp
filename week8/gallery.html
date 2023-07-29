@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Slideshow</title>
+</head>
+
+<body>
+    <h1>Slideshow</h1>
+    <i class="fa-solid fa-arrow-left" onclick="previous()"></i>
+    <img src="src/img/1.jpg" width="500" id="img">
+    <i class="fa-solid fa-arrow-right" onclick="next()"></i>
+    
+   
+    
+</body>
+
+<script>
+
+    images=["1.jpg","2.jpg","3.jpg","4.jpg"]
+
+    var position=1;
+  
+
+    function next(){
+       position=position+1;
+        if (position>images.length){
+            position=1;
+        }
+        var img=document.querySelector("img");
+        path="src/img/"+position.toString()+".jpg";
+        img.setAttribute('src',path)
+    }
+
+    function previous(){
+       position=position-1;
+        if (position<1){
+            position=images.length;
+        }
+        var img=document.querySelector("img");
+        path="src/img/"+position.toString()+".jpg";
+        img.setAttribute('src',path)
+    }
+
+</script>
+</html>

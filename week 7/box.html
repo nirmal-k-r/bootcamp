@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+</head>
+<body>
+   <div class="box">1</div> 
+   <div class="box2">2</div>
+   <div class="box3">3</div>
+</body>
+
+<style>
+    .box{
+        /* margin: 30px; */
+        margin-top:10px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 10px;
+        border: 10px solid black;
+        width: 250px;
+        display: block; 
+        border-radius: 12px;   
+    }
+    .box2{
+        /* margin: 30px; */
+        margin-top:10px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 10px;
+        border: 10px solid black;
+        width: 250px;
+        display: inline;    
+    }
+    .box3{
+        /* margin: 30px; */
+        margin-top:10px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 10px;
+        border: 10px solid black;
+        width: 250px;
+        display: inline-block;    
+    }
+
+
+    html{
+        box-sizing: border-box;
+        margin-top:20px;
+    }
+</style>
+</html>

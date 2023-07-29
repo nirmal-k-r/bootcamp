@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(239, 255, 255);
+}
+
+nav{
+    background-color: rgb(29, 29, 29);
+    border-radius: 12px;
+    padding:10px;
+    text-align: center;
+    margin-top: 10px;
+    position: sticky;
+    top:10px;
+    height: 18px;
+    color:aliceblue;
+
+}
+
+nav>a{
+    color:aliceblue;
+    font-size: medium;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.main{
+    position: relative;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+.navcon{
+    background-color: rgb(239, 255, 255);
+    position: sticky;
+    top:0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway';
+}
+
+.profile-img{
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: -1px 1px 1px 1px #000;
+    float: left;
+    margin-right: 10px;
+}
+
+.about{
+    display: inline-block;
+    /* padding:5px;
+    border: 1px dashed rgb(29, 29, 29); */
+}
+
+.pfpara{
+    margin-left: 10px;
+    text-align: justify;
+}
+
+footer{
+    background-color: rgb(29, 29, 29);
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.quote{
+    background-color: rgb(0, 0, 83);
+    border-radius: 10px;
+    color:whitesmoke;
+    padding: 1px;
+    text-align: center;
+  
+}
+
+.quoteTitle{
+    background-color: gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1px;
+}
+
+th,tr,td,table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(255, 252, 248);
+}
+
+th{
+    padding: 2px;
+
+}

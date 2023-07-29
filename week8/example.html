@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1 id="title">Trucks</h1>
+
+    <button onclick="changeTitle()">Change title</button>
+    <br><br>
+    <h2>Add cars</h2>
+    <div>
+        <form>
+            <label for="name">make</label>
+            <input type="text" id="make" name="make">
+            <br><br>
+            <label>model</label>
+            <input type="text" id="model" name="model">
+            <br>
+            <br>
+            <a onclick="add()">Add</as>
+        </form>
+        <br>
+    </div>
+
+    <input type="checkbox" id="check" name="check">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Make</th>
+                <th>Model</th>
+            </tr>
+        </thead>
+        <tbody id="content">
+            <tr>
+                <td>Toyota</td>
+                <td>Corolla</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a onclick="clearTable()">Clear</a>
+    
+</body>
+
+<footer>
+    <script src="src/js/example.js" defer></script>
+</footer>
+
+
+</html>
