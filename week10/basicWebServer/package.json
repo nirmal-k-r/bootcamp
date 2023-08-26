@@ -1,0 +1,14 @@
+{
+  "name": "basicwebserver",
+  "version": "1.0.0",
+  "description": "this is a basic server",
+  "main": "basicWebServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nirmal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
